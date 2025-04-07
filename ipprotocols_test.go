@@ -38,6 +38,7 @@ func TestGetNumber(t *testing.T) {
 		{"UDP", 17, false},
 		{"GRE", 47, false},
 		{"Reserved", 255, false},
+		{"unassigned (191)", 191, false},
 		{"INVALID", 0, true}, // Invalid protocol name
 	}
 
