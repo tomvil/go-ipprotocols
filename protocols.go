@@ -147,6 +147,9 @@ var protocolNumbers = map[int]string{
 	142: "ROHC",                                // Robust Header Compression
 	143: "Ethernet",                            // Ethernet
 	144: "AGGFRAG",                             // AGGFRAG encapsulation payload for ESP
+	145: "NSH",                                 // Network Service Header
+	146: "Homa",                                // Homa
+	147: "Bit-Emu",                             // Bit-stream Emulation
 	253: "Use for experimentation and testing", // Use for experimentation and testing
 	254: "Use for experimentation and testing", // Use for experimentation and testing
 	255: "Reserved",                            // Reserved
