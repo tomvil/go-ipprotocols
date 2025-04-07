@@ -14,6 +14,7 @@ func TestGetName(t *testing.T) {
 		{17, "UDP", false},
 		{47, "GRE", false},
 		{255, "Reserved", false},
+		{191, "Unassigned", false},
 		{999, "", true}, // Invalid protocol number
 	}
 
